@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 emb.pt
+detection_bat.log
+test.py
