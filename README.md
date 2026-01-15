@@ -40,8 +40,8 @@ What you have to tell the user:
 1. Your face embeddings are collected and stored and used for similarity calculations.
 2. OpenCV covers the whole screen so that mouse and keyboard activity can be stoped.
 3. ctypes package is used to block keyboard and mouse activity.
-4. This is not perfect since it takes you can move your mouse with touchpad (ctypes don't block that thing).
-5. 
+4. This is not perfect since you can move your mouse with touchpad (ctypes don't block that thing).
+5. The similarity threshold setting is done by experiment. I mean i haven't done any type of null hypothesis or any stats here to find the best threshold. I only checked similarity multiple cases and wrote it in the code.
 
 ---
 ### **Detection and Similarity** is different thing and **Face Lock** in real life is different, face lock is done with infrared cameras
