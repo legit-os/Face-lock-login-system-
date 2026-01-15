@@ -36,7 +36,7 @@ while True:
                 similarity_list = cosine_sim(in_tensor=emb)
                 
                 print(max(similarity_list))
-                if max(similarity_list) > 0.99:
+                if max(similarity_list) > 0.93:
                     break
                 
                     
